@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <style>
+        button{
+            border-radius: 0px !important;
+        }
+        @media screen and (min-width: 1000px) {
+        #hi{
+            width:5cm;
+        }
+        #logo{
+            margin-left:1cm;
+        }
+        
+    }
+    @media screen and (max-width: 900px) {
+        #logo{
+            display: none;
+        }
+        #contact{
+            display: none;
+        }
+    }
+    @media screen and (max-width: 25cm) {
+    #div{
+            padding:25px !important;
+        }
+        #div2{
+            display: none;
+        }
+        #firstdiv{
+            padding:10px 10px !important;
+        }
+    }
+
+    @media screen and (max-width: 1100px) {
+        #buttonsignup{
+            display:none;
+        }
+    }
+        @media screen and (min-width: 15cm){
+            #display{
+            display: inline-block !important;
+        }
+    }
+    span{
+        font-size: 17px;
+        font-weight: 700;
+        position: relative;
+        top:5px;
+        cursor:pointer;
+    }
+    span:hover{
+        color:red;
+    }
+    button{
+        font-family: 'Times New Roman', Times, serif !important;
+    }
+    img{
+        
+        width:10cm;
+        height:8cm;
+        border-radius: 44% 56% 51% 49% / 15% 14% 86% 85% ;
+        margin-left:3cm;
+    }
+    #div2{
+        padding-top:1cm;
+    }
+    p{
+        font-size: 18px;
+    }
+   #img1{
+    margin: 0px;
+   }
+   #div3{
+    padding-top: 1cm;
+   }
+   #div4{
+    padding-right:1cm;
+   }
+   @media screen and (max-width: 25cm) {
+    #div3{
+        display: none;
+    }
+
+    }
+  .p{
+    font-weight: 700;
+    color: red;
+  }
+    </style>
+</head>
+<body>
+    <div class="row p-3" id="firstdiv" align="center">
+        <div class="col" id="logo" style="font-size:22px; font-weight: 800; color:rgb(138, 4, 255)"> AirTravels </div>
+        <div id="hi"> </div>
+        <div class="col" > <span> Home </span>  </div>
+        <div class="col"> <span> Services </span> </div>
+        <div class="col"  id="display" style="display: none;"><span> Achievements </span>  </div>
+        <div class="col" id="buttonsignup"> <span>About Us </span>  </div>
+        <div class="col" id="contact"> <span> Contact US </span>  </div>
+        <div class="col"> <button class="btn btn-outline-dark"> LOGIN </button> </div>
+        <div class="col" > <button class="btn btn-outline-danger" > SIGNUP </button> </div>
+        <div>
+        </div>
+    </div>
+    
+    <div class="row" style="padding-left:2cm;margin-top:2cm;" id="div">
+        <div class="col" id="div1"> 
+            <p class="p" style="font-family:Cambria;font-size:35px; margin-left: 2cm;"> ABOUT ME </p> 
+        <p> Embark on a journey of discovery as you navigate through the wonders of [Destination]. Nestled between majestic mountains and picturesque coastlines, [Destination] is a haven for those seeking both tranquility and adventure. Our website is your digital gateway to the heart of this enchanting destination, where cultural richness intertwines with natural splendor. Immerse yourself in the vibrant tapestry of [Destination]'s history, where ancient traditions meet modern elegance. From iconic landmarks to hidden gems, our curated guides unveil the soul of the region, ensuring that every visit is a unique and unforgettable experience. Whether you're an avid adventurer, a connoisseur of local flavors, or a seeker of serenity, [Destination] offers a kaleidoscope of possibilities. Join us in uncovering the secrets of this captivating destination, where every moment is a new chapter in an extraordinary travel narrative. Start your journey with us and let the magic of [Destination] unfold before your eyes.</p></div>
+        <div class="col" id="div2"> 
+            <img src="About.jpg"  alt="Unable to display">
+        </div>
+
+
+        <div class="row" style="padding-left:0.5cm;margin-top:2cm;" id="vision div">
+            <div class="col-5" id="div3"> 
+                <img id="img1" src="About Me 1.jpg"  alt="Unable to display">
+            </div>
+            <div class="col" id="div4"> <p class="p" style="font-family:Cambria;font-size:35px; margin-left: 2cm;"> VISION AND MISSION </p> 
+            <p> Our vision is to inspire wanderlust and facilitate unforgettable travel experiences for individuals around the globe. We strive to be the premier online destination for travel enthusiasts, providing a platform that not only showcases the diverse beauty of destinations but also fosters a sense of community and cultural exchange. Through cutting-edge technology and curated content, we aim to ignite the passion for exploration and connect people with their dream destinations.
+
+                At the heart of our mission is a commitment to making travel accessible, seamless, and enriching. We endeavor to curate a comprehensive and reliable resource that empowers travelers with the information they need to plan and embark on their journeys confidently. By fostering partnerships with local communities and businesses, we aim to promote sustainable and responsible tourism. Our mission is to be the go-to hub for travel inspiration, information, and community engagement, ensuring that every traveler can create memories that last a lifetime. </p></div>
+    </div>
+</body>
+</html>
